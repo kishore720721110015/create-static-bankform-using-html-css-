@@ -1,0 +1,42 @@
+header{
+    display: flex;
+    background-color: green;
+    color: white;
+    margin-top: 0px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    width: 750px;
+    background-color: lightgray;
+    padding: 5px 10px;
+    margin-top: 50px;
+}
+
+label{
+    margin-bottom:15px;
+    font-size: small;
+    font-weight: 600;
+}
+
+input[type="text"]{
+    width: 100%;
+    margin: 5px 0px;
+    border-radius: 5px;
+}
+
+hr.new{
+    border: 1px solid black;
+}
+
+img{
+    height: 50px;
+    width: 50px;
+    margin-left: 350px;
+    margin-top: 2px;
+}
